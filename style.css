@@ -1,0 +1,52 @@
+/* Element Selector */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+}
+
+/* ID Selector */
+#main-heading {
+    color: #2a7ae2;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Class Selector */
+.intro {
+    font-size: 1.2rem;
+    color: #444;
+    margin: 10px 0;
+}
+
+/* Styling an image */
+#car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 93%;
+    border: solid 2px #cfd1d3;
+}
+.profile-img {
+    margin: 20px auto;
+    border: 4px solid #2a7ae2;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+}
+
+/* Another Class with padding, margin, border */
+.content-box {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
